@@ -1,0 +1,42 @@
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  color-scheme: light;
+  background: #f4f1eb;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+}
+
+html,
+body {
+  width: 100%;
+  min-height: 100%;
+  margin: 0;
+}
+
+body {
+  min-height: 100vh;
+  min-height: 100svh;
+  background: #f4f1eb;
+}
+
+main {
+  display: grid;
+  width: 100%;
+  min-height: 100vh;
+  min-height: 100svh;
+  place-items: center;
+  overflow: hidden;
+}
+
+img {
+  display: block;
+  width: 100vw;
+  height: 100vh;
+  height: 100svh;
+  object-fit: contain;
+  user-select: none;
+  -webkit-user-drag: none;
+}
