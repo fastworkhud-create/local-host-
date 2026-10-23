@@ -7,16 +7,37 @@
     <meta name="theme-color" content="#f4f1eb" />
     <title>LuckPariz Product Mockup</title>
     <meta name="description" content="LuckPariz 3D bottle and packaging mockup." />
+    <style>
+      * { box-sizing: border-box; }
+      html, body { width: 100%; height: 100%; margin: 0; }
+      body { background: #f4f1eb; }
+      main {
+        display: grid;
+        width: 100%;
+        min-height: 100vh;
+        min-height: 100svh;
+        place-items: center;
+        overflow: hidden;
+      }
+      img {
+        display: block;
+        width: 100vw;
+        height: 100vh;
+        height: 100svh;
+        object-fit: contain;
+        user-select: none;
+        -webkit-user-drag: none;
+      }
+    </style>
   </head>
   <body>
     <main aria-label="Product image">
       <img
-        src="/luckpariz_3d_mockup.webp"
+        src="./public/luckpariz_3d_mockup.webp"
         alt="LuckPariz 3D bottle and packaging mockup"
         fetchpriority="high"
         draggable="false"
       />
     </main>
-    <script type="module" src="/src/main.js"></script>
   </body>
 </html>

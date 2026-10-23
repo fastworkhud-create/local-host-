@@ -1,18 +1,5 @@
 # LuckPariz image viewer
 
-A single-page public viewer for the LuckPariz 3D product mockup. The page displays only the image; Vercel Analytics is included for private page-view and visitor reporting in the project owner's Vercel dashboard.
+A static, image-only page for the LuckPariz 3D product mockup. GitHub Pages serves the page from the `main` branch root; visitors see the mockup image only.
 
-## Local development
-
-```sh
-npm install
-npm run dev
-```
-
-## Build
-
-```sh
-npm run build
-```
-
-Deploy the project to Vercel, enable **Web Analytics** in the project dashboard, and publish a new build. Analytics data is available in the Vercel project dashboard, not on the public image page.
+The page does not include analytics. GitHub Pages does not provide a private image-view counter, so this deployment will not show owner-only visitor counts.
